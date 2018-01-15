@@ -14,19 +14,19 @@ body {
   width: 100%;
 }
 
-nav {
-  box-sizing: border-box;
-  background-color: #000;
-  margin: 0% 10% 0% 10%;
-  padding: 10px 0 15px 15px;
-  width: 40%;
-}
-
 .restaurant-list {
   box-sizing: border-box;
   background-color: #CFCDCD;
   margin: 0% 10% 0% 10%;
   width: 40%;
+}
+
+nav {
+  box-sizing: border-box;
+  background-color: #000;
+  margin: 0% 10% 0% 10%;
+  padding: 10px 0 15px 15px;
+  /* width: 40%; */
 }
 
 .content {
