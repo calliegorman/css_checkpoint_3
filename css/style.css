@@ -10,6 +10,7 @@ body {
 
 .container {
   box-sizing: border-box;
+  display: block;
   margin: 0% 10% 0% 10%;
   width: 100%;
 }
@@ -30,9 +31,12 @@ nav {
 }
 
 .content {
-  border-top: 1px solid #979797;
-  border-bottom: 1px solid #979797;
+  display: inline-block;
   padding: 3%;
+}
+
+.location {
+  border-bottom: 1px solid #909090;
 }
 
 .location:hover {
@@ -41,6 +45,7 @@ nav {
 
 .arrow {
   float: right;
+  display: inline-block;
   padding-top: 20px;
   padding-right: 10px;
 }
